@@ -1,0 +1,39 @@
+.nav-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    letter-spacing: 0.4rem;
+
+    box-shadow: 0 0 10px;
+    transition: 0.3s color;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    
+   
+    width: 200px;
+    list-style: none;
+   
+
+}
+a{
+    letter-spacing: 0.4rem;
+    text-decoration: inherit;
+    color: inherit;
+   
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 90vh;
+    /* background-color: rgb(157, 93, 93); */
+    transition: 0.3s color;
+    box-shadow: 0 0 5px;
+}
